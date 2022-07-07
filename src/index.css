@@ -14,7 +14,7 @@ body,
 }
 
 #app {
-    @apply fixed top-0 left-0 bg-indigo-300;
+    @apply fixed top-0 left-0 bg-black;
 }
 
 @font-face {

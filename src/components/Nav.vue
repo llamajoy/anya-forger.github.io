@@ -17,11 +17,11 @@ const links = [
                 'w-full',
                 'rounded-b-lg',
                 'bg-gradient-to-r',
-                'from-violet-800',
-                'to-indigo-600',
+                'from-emerald-50',
+                'to-lime-50',
                 'pl-24',
                 'shadow-lg',
-                'shadow-indigo-400',
+                'shadow-emerald-50',
                 'md:pl-32',
                 'transition-all',
                 'duration-200',
@@ -35,7 +35,7 @@ const links = [
             >
                 <router-link
                     :to="link.url"
-                    class="text-xl text-white opacity-80 shadow-cyan-300 drop-shadow-xl transition-all duration-200 hover:text-2xl hover:opacity-100"
+                    class="text-xl text-black opacity-80 shadow-green-300 drop-shadow-xl transition-all duration-200 hover:text-2xl hover:opacity-100"
                     >{{ link.text }}</router-link
                 >
             </div>
@@ -50,11 +50,11 @@ const links = [
             leave-to-class="transform -translate-x-32"
         >
             <div
-                class="absolute top-4 left-4 z-50 h-20 w-20 overflow-hidden rounded-full bg-pink-200 shadow-md shadow-blue-300 ring-1 ring-violet-700 md:h-24 md:w-24"
+                class="absolute top-4 left-4 z-50 h-20 w-20 overflow-hidden rounded-full bg-white-0 shadow-md shadow-indigo-200 ring-1 ring-lime-500 md:h-24 md:w-24"
                 v-if="$route.path !== '/about'"
             >
                 <img
-                    :src="pic.uniform"
+                    :src="https://spy-family.net/assets/img/common/header_bottomimg_3.png"
                     class="w-full translate-y-12 scale-[180%] transition-all duration-200 hover:rounded-xl hover:pt-5 md:translate-y-14 md:hover:pt-7"
                 />
             </div>

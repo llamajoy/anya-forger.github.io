@@ -13,14 +13,14 @@ const width = screen.width;
         <div class="flex w-full flex-col md:flex-row">
             <div class="w-full md:w-1/2">
                 <Typing
-                    text="Anya Forger"
+                    text="Joy's Website"
                     @done="step++"
                     class="mb-2 block text-2xl sm:text-3xl lg:text-4xl"
                 />
                 <Typing v-if="step > 0" @done="step++" :text="titles.join(', ')" :speed="60" />
                 <a
                     v-if="step > 1"
-                    class="mt-8 flex items-center text-lg text-gray-500 transition-all hover:text-gray-700"
+                    class="mt-8 flex items-center text-lg text-white transition-all hover:text-white"
                     href="https://github.com/anya-forger"
                     target="_blank"
                 >
@@ -29,8 +29,8 @@ const width = screen.width;
                 </a>
                 <a
                     v-if="step > 2"
-                    class="mt-4 flex items-center text-lg text-gray-500 transition-all hover:text-gray-700"
-                    href="https://www.instagram.com/spy_family_official/"
+                    class="mt-4 flex items-center text-lg text-white transition-all hover:text-white"
+                    href="https://www.instagram.com/"
                     target="_blank"
                 >
                     <MdiInstagram class="mr-1 inline-block" />
